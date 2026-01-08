@@ -2,6 +2,16 @@
 
 A professional React authentication system with **Neo-Brutalism UI** design, demonstrating real-world patterns for state management, protected routes, and API integration.
 
+## 🚀 Live Demo
+
+**URL:** https://api-integration-authentication-flow.vercel.app/
+
+### Test Credentials
+| Field | Value |
+|-------|-------|
+| **Email** | `eve.holt@reqres.in` |
+| **Password** | `cityslicka` |
+
 ![Login Page](docs/images/login-page.png)
 
 ---
@@ -198,10 +208,10 @@ If ReqRes API is unavailable (e.g., Cloudflare blocking), the app falls back to 
 
 ```env
 # .env
-VITE_API_BASE_URL=/api
+VITE_API_BASE_URL=https://reqres.in/api
 ```
 
-The Vite proxy forwards `/api/*` requests to `https://reqres.in/api/*`.
+For local development with Vite proxy, you can use `VITE_API_BASE_URL=/api`.
 
 ---
 
